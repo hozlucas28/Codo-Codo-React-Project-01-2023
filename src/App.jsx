@@ -16,8 +16,6 @@ function App() {
 	const [playerOpt, setPlayerOpt] = useState('null')
 	const machineOpt = playerOpt !== 'null' ? getRndElement(options) : null
 
-	console.log({ playerOpt, machineOpt })
-
 	return (
 		<>
 			<Header />
