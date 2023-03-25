@@ -91,7 +91,7 @@
     Acknowledgments
 </h2>
 <p>
-    Thanks to <a href="https://inscripcionesagencia.bue.edu.ar/codoacodo/" target="_blank">Codo a Codo</a> teachers to share this lessons and others ones.
+    Thanks to <a href="https://inscripcionesagencia.bue.edu.ar/codoacodo/" target="_blank">Codo a Codo</a> teachers to teach me how to program in React.
 </p>
 
 <h2>
