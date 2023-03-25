@@ -1,0 +1,7 @@
+#subHeader {
+	@apply mt-12
+        text-center
+        text-2xl
+        font-semibold
+        text-neutral-300;
+}

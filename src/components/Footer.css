@@ -1,0 +1,26 @@
+#footer {
+	@apply mt-auto
+	flex
+		w-full
+		flex-wrap
+		justify-between
+		gap-4
+		bg-gradient-to-b
+		from-neutral-900
+		to-neutral-800
+		px-8
+		py-8
+		pt-16
+		text-neutral-500;
+}
+
+#footer * {
+	@apply max-[446px]:flex-auto
+	max-[446px]:text-center;
+}
+
+#footer .link {
+	@apply transition-colors
+		duration-300
+		hover:text-white;
+}

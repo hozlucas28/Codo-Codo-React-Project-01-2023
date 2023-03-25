@@ -1,0 +1,18 @@
+#restartBtn {
+	@apply mx-auto
+        mt-7
+        block
+        rounded
+        bg-violet-500
+        px-12
+        text-center
+        font-semibold
+        text-neutral-300
+        drop-shadow-xl
+        transition-colors
+        delay-75
+        duration-300
+        ease-in-out
+        hover:bg-neutral-300
+        hover:text-violet-500;
+}

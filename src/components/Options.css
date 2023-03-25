@@ -1,0 +1,20 @@
+#form {
+	@apply mx-3 mt-7;
+}
+
+#options {
+	@apply invisible
+        flex
+        flex-wrap
+        justify-center
+        gap-6
+		align-middle;
+}
+
+#options > * {
+	@apply visible;
+}
+
+#options:hover > :not(:hover):not(.disabled) {
+	@apply opacity-50;
+}
