@@ -18,28 +18,28 @@ const Options = ({ ...props }) => {
 			<form id="form">
 				<div id="options">
 					<Option
-						value={TEXTS.options.rock.value}
+						value={TEXTS.form.options.rock.value}
 						image={rock}
-						imageAlt={TEXTS.options.rock.altImg}
+						imageAlt={TEXTS.form.options.rock.altImg}
 						{...props}
 					>
-						{TEXTS.options.rock.text}
+						{TEXTS.form.options.rock.text}
 					</Option>
 					<Option
-						value={TEXTS.options.paper.value}
+						value={TEXTS.form.options.paper.value}
 						image={paper}
-						imageAlt={TEXTS.options.paper.altImg}
+						imageAlt={TEXTS.form.options.paper.altImg}
 						{...props}
 					>
-						{TEXTS.options.paper.text}
+						{TEXTS.form.options.paper.text}
 					</Option>
 					<Option
-						value={TEXTS.options.scissors.value}
+						value={TEXTS.form.options.scissors.value}
 						image={scissors}
-						imageAlt={TEXTS.options.scissors.altImg}
+						imageAlt={TEXTS.form.options.scissors.altImg}
 						{...props}
 					>
-						{TEXTS.options.scissors.text}
+						{TEXTS.form.options.scissors.text}
 					</Option>
 				</div>
 				{props.playerOpt !== 'null' ? <RestartBtn setPlayerOpt={props.setPlayerOpt} /> : null}

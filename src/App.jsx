@@ -10,7 +10,7 @@ import Options from './components/Options.jsx'
 import Instructions from './components/Instructions.jsx'
 import Footer from './components/Footer.jsx'
 
-const options = [TEXTS.options.rock.value, TEXTS.options.paper.value, TEXTS.options.scissors.value]
+const options = [TEXTS.form.options.rock.value, TEXTS.form.options.paper.value, TEXTS.form.options.scissors.value]
 
 function App() {
 	const [playerOpt, setPlayerOpt] = useState('null')

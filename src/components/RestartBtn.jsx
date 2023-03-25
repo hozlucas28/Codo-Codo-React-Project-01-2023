@@ -13,7 +13,7 @@ const RestartBtn = ({ setPlayerOpt }) => {
 			onClick={handleRestart}
 			id="restartBtn"
 		>
-			{TEXTS.restart}
+			{TEXTS.form.restart}
 		</button>
 	)
 }
