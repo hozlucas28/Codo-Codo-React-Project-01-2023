@@ -2,7 +2,7 @@ import React from 'react'
 
 import { TEXTS } from '../constants/TEXTS.js'
 
-import './Options.css'
+import styles from './Options.module.css'
 
 import RestartBtn from './RestartBtn.jsx'
 
@@ -15,8 +15,8 @@ import Option from './Option.jsx'
 const Options = ({ ...props }) => {
 	return (
 		<>
-			<form id="form">
-				<div id="options">
+			<form className={styles.container}>
+				<div className={styles.subContainer}>
 					<Option
 						value={TEXTS.form.options.rock.value}
 						image={rock}

@@ -1,6 +1,7 @@
 import React from 'react'
 
-import './Option.css'
+import styles from './Option.module.css'
+import parentStyles from './Options.module.css'
 
 import robot from '../static/robot.webp'
 
@@ -14,10 +15,10 @@ const Option = ({ children, playerOpt, machineOpt, setPlayerOpt, value, image, i
 	}
 
 	return (
-		<label className={'option' + (shoudlDisabled ? ' disabled' : '')}>
-			<h3 className="header">{children}</h3>
+		<label className={styles.container + (shoudlDisabled ? ` ${parentStyles.disabled}` : '')}>
+			<h3 className={styles.header}>{children}</h3>
 			<img
-				className="image"
+				className={styles.image}
 				src={image}
 				alt={imageAlt}
 			/>
@@ -25,7 +26,7 @@ const Option = ({ children, playerOpt, machineOpt, setPlayerOpt, value, image, i
 				type="radio"
 				name="option"
 				value={value}
-				className="input"
+				className={styles.input}
 				onChange={handleOnChange}
 				disabled={shoudlDisabled}
 				checked={shouldChecked}
@@ -33,7 +34,7 @@ const Option = ({ children, playerOpt, machineOpt, setPlayerOpt, value, image, i
 			/>
 			{shouldShowRobot ? (
 				<img
-					className="robot"
+					className={styles.robot}
 					src={robot}
 					alt="TODO"
 				/>

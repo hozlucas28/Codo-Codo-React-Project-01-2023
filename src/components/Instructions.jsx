@@ -2,10 +2,10 @@ import React from 'react'
 
 import { TEXTS } from '../constants/TEXTS.js'
 
-import './Instructions.css'
+import styles from './Instructions.module.css'
 
 const Instructions = () => {
-	return <p id="instructions">{TEXTS.instructions}</p>
+	return <p className={styles.container}>{TEXTS.instructions}</p>
 }
 
 export default Instructions

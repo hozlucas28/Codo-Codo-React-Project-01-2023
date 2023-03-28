@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { TEXTS } from '../constants/TEXTS.js'
 
-import './RestartBtn.css'
+import styles from './RestartBtn.module.css'
 
 const RestartBtn = ({ setPlayerOpt }) => {
 	const handleRestart = () => {
@@ -11,7 +11,7 @@ const RestartBtn = ({ setPlayerOpt }) => {
 	return (
 		<button
 			onClick={handleRestart}
-			id="restartBtn"
+			className={styles.container}
 		>
 			{TEXTS.form.restart}
 		</button>

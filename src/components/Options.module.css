@@ -1,8 +1,8 @@
-#form {
+.container {
 	@apply mx-3 mt-7;
 }
 
-#options {
+.subContainer {
 	@apply invisible
         flex
         flex-wrap
@@ -11,10 +11,10 @@
 		align-middle;
 }
 
-#options > * {
+.subContainer > * {
 	@apply visible;
 }
 
-#options:hover > :not(:hover):not(.disabled) {
+.subContainer:hover > :not(:hover):not(.disabled) {
 	@apply opacity-50;
 }

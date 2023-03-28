@@ -1,4 +1,4 @@
-#options .option {
+.container {
 	@apply relative
         flex
         w-40
@@ -18,27 +18,27 @@
 		hover:cursor-pointer;
 }
 
-#options .option:has(.input:checked) {
+.container:has(.input:checked) {
 	@apply bg-green-400;
 }
 
-#options .option:has(.input:disabled) {
+.container:has(.input:disabled) {
 	@apply scale-100 cursor-not-allowed;
 }
 
-#options .option .header {
+.container .header {
 	@apply text-center
         text-2xl
         font-medium;
 }
 
-#options .option .image {
+.container .image {
 	@apply mx-auto 
 		w-3/4
 		drop-shadow-lg;
 }
 
-#options .option .robot {
+.container .robot {
 	@apply absolute
     left-0
     right-0

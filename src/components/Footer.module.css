@@ -1,4 +1,4 @@
-#footer {
+.container {
 	@apply mt-auto
 	flex
 		w-full
@@ -14,12 +14,12 @@
 		text-neutral-500;
 }
 
-#footer * {
+.container * {
 	@apply max-[446px]:flex-auto
 	max-[446px]:text-center;
 }
 
-#footer .link {
+.link {
 	@apply transition-colors
 		duration-300
 		hover:text-white;
