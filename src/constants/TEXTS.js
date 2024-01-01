@@ -35,7 +35,7 @@ export const TEXTS = {
 	instructions: 'Click on a card to select rock, paper, or scissors. Then, the machine will select a random one.',
 
 	footer: {
-		copyright: 'Copyright © 2023 Lucas Hoz',
+		copyright: 'Copyright © 2024 Lucas Hoz',
 		sourceCode: '[ View Source Code ]',
 	},
 }
